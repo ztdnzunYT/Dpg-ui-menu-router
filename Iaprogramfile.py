@@ -36,8 +36,8 @@ class Login:
     def Gatekeeper(sender,val,user_data):
         user_input = dpg.get_value("Username")
         pass_input = dpg.get_value("Password")
-        username = ""  #"Dnzun"
-        password = "" #"Password"
+        username = ""  #ANYTHING YOU WANT
+        password = "" #ANYTHING YOU WANT 
         user_data = user_data
         
         if user_input == username and pass_input == password:
